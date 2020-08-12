@@ -12,16 +12,18 @@
   <body>
     <div id="container">
       <h1> Temperature Converter</h1>
+    
     <form name="converter">
-      Celsius:
-      <input type="text" name="celsius" onChange="CelsiusConverter()" /><br />
-      Fahrenheit:
-      <input type="text" name="fahrenheit" onChange="FahrenheitConverter()" /><br />
-      Kelvin: <input type="text" name="kelvin" onChange="KelvinConverter()"></br />
-      <input type="button" value="Convert!" />
+       <strong>Celsius:</strong>
+       <input type="text" name="celsius" onChange="CelsiusConverter()" /><br />
+       <strong>Fahrenheit:</strong>
+       <input type="text" name="fahrenheit" onChange="FahrenheitConverter()" /><br />
+       <strong> Kelvin:</strong> <input type="text" name="kelvin" onChange="KelvinConverter()"></br /><br />
+      <input id="button" type="button" value="Convert!" />
 
     </form>
-    <div>
+    </div>
+    
 
     <script type="text/javascript" src="mytemp.js"></script>
   </body>
